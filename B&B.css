@@ -1,0 +1,431 @@
+/* Fonts */
+@font-face{
+			font-family: WG;
+			src: url('fonts/gt-walsheim-web.ttf');
+}
+@font-face{
+			font-family: HF;
+			src: url('fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face{
+			font-family: NR;
+			src: url('fonts/Neuton-Regular.ttf');
+}
+body{
+			font-family: "Palatino Linotype", Palatino, serif;
+}
+
+
+/* Background images */
+#indeximage{
+			background: url(images/GalwayBay4.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#aboutimage{
+			background: url(images/GalwayBay5.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#roomsimage{
+			background: url(images/House1.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#bookingimage{
+			background: url(images/reservations.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#localimage{
+			background: url(images/map.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#mapimage{
+			background: url(images/map2.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#awardsimage{
+			background: url(images/deck.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#faqimage{
+			background: url(images/drawing.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+#sitemapimage{
+			background: url(images/site.jpg)no-repeat fixed center;
+			background-size: cover;
+			position:absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+}
+/* Header */
+#header{
+
+			height: 35%;
+			width: 100%;
+			margin: 0px;
+			padding:0px;
+			color:white;
+			font-family: HF;
+			font-size:5em;
+			text-align: left;
+			margin-left: 50px;
+}
+#header span{
+			color:white;
+			font-family: HF;
+			font-size:50%;
+			margin: 0px;
+			padding:0px;
+}
+#headerIndex{
+
+			height: 35%;
+			width: 100%;
+			margin: 0px;
+			padding:0px;
+			color:black;
+			font-family: HF;
+			font-size:5em;
+			text-align: center;
+			margin-bottom:100px;
+}
+#headerIndex span{
+			color:black;
+			font-family: HF;
+			font-size:50%;
+			text-align: center;
+			margin: 0px;
+			padding:0px;
+}
+header a:link {
+    text-decoration: none;
+	color: white;
+}
+header a:visited {
+    text-decoration: none;
+	color: white;
+}
+
+/* **SiteMap Links** */
+#AboutText li a {
+
+			color: 	black;
+			text-decoration: underline;
+}
+
+/* Table CSS*/
+table tr, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	line-height:1.2em;
+
+}
+ tr:hover {
+          background-color: #efbe6e;
+        }
+
+/* Booking Labels */
+input{
+	margin-top:1%;
+	margin-bottom:1%;
+}
+label{
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+/*Booking Text Main*/
+#FormText{
+		width: 400px;
+		height: auto;
+		padding: 50px;
+		margin: 50px;
+		font-family: WG;
+		font-size: 1em;
+		background: rgba(255, 255, 255, 0.9);
+		box-shadow: rgba(255, 255, 255, 0.4)10px 10px;
+}
+#FormText p{
+	text-align: left;
+	color: black;
+	font-family: WG;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+/*Book Now*/
+.bookNowButton{
+		text-align: center;
+		line-height:400%;
+		margin-top:5%;
+
+}
+.bookNow {
+		font-family: WG;
+		font-size:1.5em;
+		color: white;
+		text-decoration: none;
+		padding: 10px 10px 10px 10px;
+		border-radius: 70px 70px;
+		border: 1px solid white;
+
+}
+.bookNow:hover{
+
+		color: #D4AF37;
+		border: 2px solid black;
+		font-size:1.5em;
+}
+
+/*LHS Nav*/
+#leftM {
+
+		width: 30%;
+		padding-top: 80px;
+		padding-left: 30px;
+		margin: 15px;
+}
+#leftM a{
+		color: white;
+		text-align: left;
+		text-decoration: none;
+		font-family: WG;
+		font-size: 1em;
+		line-height: 150%
+}
+.menu{
+		color: white;
+		padding-bottom:10px;
+		text-align: left;
+		text-decoration: none;
+		font-family: WG;
+		font-size: 1em;
+		line-height:150%
+}
+
+#leftM li{
+		list-style-type: none;
+}
+
+#leftM a:hover{
+		font-weight:bold;
+		font-size: 1.0em;
+		margin-left: 10px;
+}
+
+/*RHS Nav*/
+#rightM {
+	list-style: none;
+    position:fixed;
+    right:1%;
+    margin-left:10px;
+    margin-top:50px;
+	text-align: right;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+
+}
+#rightM a{
+		color: black;
+		text-align: right;
+		text-decoration: none;
+		font-family: WG;
+		font-size: 0.9em;
+		line-height: 100%;
+
+}
+#rightM li{
+		list-style-type: none;
+}
+
+#rightM a:hover{
+		font-weight:bold;
+		font-size: 1.3em;
+}
+
+/* Body Text Main */
+.address{
+text-align:right;
+}
+
+
+#AboutText{
+		width: 400px;
+		border: 5px gray;
+		padding: 50px;
+		margin: 50px;
+		background: rgba(255, 255, 255, 0.8);
+		box-shadow: rgba(255, 255, 255, 0.4)10px 10px;
+		font-family: WG;
+		font-size: 100%;
+		line-height: 1.5em;
+		text-align: left;
+
+}
+#AboutText p.para{
+	text-align: left;
+	color: black;
+	padding: 0 7em 2em 0;
+}
+
+#AboutTextIndex p{
+	height: 200px;
+	color: white;
+	font-family: WG;
+	font-size: 1.25em;
+	padding-left: 45px;
+	padding-top: 50px;
+	text-align: left;
+}
+
+p.introduction:first-letter {
+ font-size : 1.4em;
+ font-weight : bold;
+ color : red;
+ }
+
+/*Footer*/
+#bfooter{
+			height: auto;
+			width: 100%;
+			bottom: 0px;
+			padding: 5px;
+			margin: 25px;
+}
+
+#bfooter li{
+			display: inline;
+}
+
+#bfooter li a{
+			color: 	white;
+			text-align: left;
+			text-decoration: none;
+			font-family: WG;
+			font-size: 1em;
+			padding: 0px 0px 0px 6px;
+			border-left: 1px solid #ccc;
+
+}
+#bfooter li a:hover{
+			color: white;
+			font-size: 1.1em;
+}
+
+
+/*Footer Design Mailto*/
+#fdesign{
+			text-align:center;
+			padding-right:50px;
+			padding-top:10px;
+			bottom:0;
+			width:100%;
+			height:25px;
+	}
+#fdesign a{
+			color: white;
+			text-decoration: none;
+			font-family: WG;
+			font-size: 0.8em;
+}
+#fdesign a:hover{
+			color: white;
+			font-size: 1.0em;
+}
+
+/*Social*/
+#social1{
+			float: right;
+			padding-right: 5px;
+			padding-top: 25px;
+			margin:0;
+}
+#social2{
+			float: right;
+			padding-right: 5px;
+			padding-top: 25px;
+			margin:0;
+}
+.tab{
+margin-left:20px;
+}
